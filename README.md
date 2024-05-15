@@ -4,8 +4,8 @@ Welcome to my Time Series Forecasting Projects Repository! This repository conta
 
 ## Projects
 
-### 1. Sleep Disorder Prediction
+### 1. Sale Prediction using ARIMA & SARIMAX
 
-- **Description:** The project aims to predict sleep disorders and their types by analyzing lifestyle and medical variables, such as age, BMI, sleep duration, blood pressure, and more. Compare the model accuracy between Decision Tree Clasifier vs Random Forest Classifier
-- **Technologies Used:** Random Forest Classifier and Decision Tree classifier
-- **Results:** The Random Forest Classifier performed well with an accuracy of 89%.
+- **Description:** This project focuses on forecasting sales figures using time series analysis techniques such as ARIMA (AutoRegressive Integrated Moving Average) and SARIMA (Seasonal AutoRegressive Integrated Moving Average). By analyzing historical sales data, these models aim to provide accurate predictions for future sales trends. The project involves fitting ARIMA and SARIMA models to the sales data, evaluating their performance, and comparing the forecasting capabilities of each model.
+- **Technologies Used:** ARIMA (AutoRegressive Integrated Moving Average), SARIMA (Seasonal AutoRegressive Integrated Moving Average)
+- **Results:** Both ARIMA and SARIMA models were applied to the sales data. While ARIMA captures the non-seasonal patterns, SARIMA incorporates seasonal effects for more accurate predictions. The models were evaluated based on metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). The SARIMA model outperformed ARIMA, demonstrating superior forecasting accuracy for seasonal sales data.
